@@ -28,7 +28,7 @@ export const textMessageController = async(req,res) => {
         
 
         const  { choices } = await openai.chat.completions.create({
-        model: "gemini-2.5-flash",
+        model: "llama-3.3-70b-versatile",
         messages: [
        
         {
